@@ -229,7 +229,7 @@ conda activate controlfoley
 pip install -r requirements.txt
 
 # Download pretrained weights
-git clone https://huggingface.co/xxx ckpts
+git clone https://huggingface.co/YJX-Xiaomi/ControlFoley ckpts
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
