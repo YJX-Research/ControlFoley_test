@@ -96,6 +96,9 @@ Unlike existing methods that rely on a single modality or struggle under conflic
 
 <div align="center">
     <img src="assets/tease.png" width="100%">
+    <p style="margin-top: 8px; text-align: center; font-style: italic;">
+        Left: Overview of the ControlFoley framework with three multimodal conditioning modes for controllable video-synchronized audio generation. Right: Performance radar chart of Video-to-Audio models.
+    </p>
 </div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
