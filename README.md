@@ -64,7 +64,7 @@
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
-## 🔄 Updates
+## 🔄 **Updates**
 
 - [x] Release technical report on arXiv
 - [x] Launch project page
@@ -74,11 +74,11 @@
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
-## 📺Intro Video
+## 📺 **Intro Video**
 
 <p align="center">
   <video width="720" controls>
-    <source src="./Videos/introduction_video.mp4" type="video/mp4">
+    <source src="https://YJX-Research.github.io/ControlFoley/Videos/introduction_video.mp4" type="video/mp4">
   </video>
 </p>
 
