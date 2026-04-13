@@ -232,12 +232,19 @@ pip install -r requirements.txt
 git clone https://huggingface.co/YJX-Xiaomi/ControlFoley ckpts
 ```
 
+### Supported Tasks
+
+- TV2A: 
+- TC-V2A: 
+- AC-V2A: 
+- T2A: 
+
 ### Usage Examples
 
 #### TV2A
 
 ```bash
-python demo.py --video_path "assets/00001.mp4" --prompt "A man is playing the piano." --negative_prompt "music" --output "./output"
+python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --negative_prompt "man speaking" --output "./output"
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
