@@ -59,7 +59,27 @@
 - [2026-04] Technical report released on [arXiv](xxx).
 - [2026-04] [Project page](https://yjx-research.github.io/ControlFoley_web_page/) is now live.
 - [2026-04] [Inference code](xxx) and [pretrained models](xxx) are released.
-- [2026-04] Online demo is available on [demo page](xxx).
+- [2026-04] Online demo is available on [Project Page](https://yjx-research.github.io/ControlFoley_web_page/).
 - [Coming Soon] Skill XXX will be released.
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🔄 Updates
+
+- [x] Release technical report on arXiv
+- [x] Launch project page
+- [x] Release inference code and pretrained models
+- [x] Launch online inference demo (available on project page)
+- [ ] Release skill named XXX
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 📺Intro Video
+
+<div align="center">
+    <video width="100%" controls playsinline>
+        <source src="./Videos/introduction_video.mp4" type="video/mp4">
+    </video>
+</div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
