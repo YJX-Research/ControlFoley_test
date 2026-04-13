@@ -151,7 +151,7 @@ We propose VGGSound-TVC to evaluate text controllability under varying levels of
 - L2 → A moderate semantic conflict in which the textual description belongs to a different semantic category while still maintaining a similar temporal structure or acoustic rhythm.
 - L3 → Strong conflict, where the textual description is randomly substituted.
 
-This enables systematic analysis of modality dominance and controllability under increasing inconsistency.Example samples from VGGSound-TVC are as follows.
+This enables systematic analysis of modality dominance and controllability under increasing inconsistency. Example samples from VGGSound-TVC are as follows.
 <div align="center">
     <img src="assets/benchmark.png" width="80%">
 </div>
