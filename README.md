@@ -197,7 +197,7 @@ ControlFoley achieves the best performance across all evaluation metrics on the 
 Notably, it outperforms CondFoleyGen, a specialized in-domain baseline, demonstrating strong generalization ability.
 
 <div align="center">
-    <img src="assets/result3.png" width="60%">
+    <img src="assets/result3.png" width="50%">
 </div>
 
 ##
