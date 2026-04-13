@@ -186,4 +186,21 @@ ControlFoley demonstrates strong textual controllability under increasing visual
     <img src="assets/result2.png" width="80%">
 </div>
 
+🎧 AC-V2A
+
+ControlFoley achieves the best performance across all evaluation metrics on the Greatest Hits dataset:
+
+- Better timbre similarity (Resemblyzer)  
+- Better synchronization (DeSync)  
+- Higher audio quality (IS)  
+  
+Notably, it outperforms CondFoleyGen, a specialized in-domain baseline, demonstrating strong generalization ability.
+
+<div align="center">
+    <img src="assets/result3.png" width="80%">
+</div>
+
+##
+ControlFoley also demonstrates competitive or superior performance compared to strong proprietary systems such as Kling-Foley, highlighting its effectiveness as an open and controllable solution.
+
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
