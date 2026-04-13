@@ -76,10 +76,12 @@
 
 ## 📺Intro Video
 
-<div align="center">
-    <video width="100%" controls playsinline>
-        <source src="./Videos/introduction_video.mp4" type="video/mp4">
-    </video>
-</div>
+<p align="center">
+  <video width="720" controls>
+    <source src="./Videos/introduction_video.mp4" type="video/mp4">
+  </video>
+</p>
+
+For more results, visit [Demo Page](https://yjx-research.github.io/ControlFoley_demo_page/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
