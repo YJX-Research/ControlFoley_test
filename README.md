@@ -174,6 +174,16 @@ ControlFoley achieves state-of-the-art performance across multiple benchmarks, i
     <img src="assets/result1.png" width="80%">
 </div>
 
-<hr>
+📝 TC-V2A
+
+ControlFoley demonstrates strong textual controllability under increasing visual-text conflict.
+
+- Maintains high CLAP (text alignment) across conflict levels  
+- Effectively reduces IB under conflict (less reliance on visual bias)  
+- Achieves better balance between controllability and generation quality  
+
+<div align="center">
+    <img src="assets/result2.png" width="80%">
+</div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
