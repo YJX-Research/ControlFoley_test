@@ -157,3 +157,23 @@ This enables systematic analysis of modality dominance and controllability under
 </div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 📊 **Performance**
+
+ControlFoley achieves strong performance across multiple V2A tasks, demonstrating both high generation quality and robust controllability.
+
+🎬 TV2A
+
+ControlFoley achieves state-of-the-art performance across multiple benchmarks, including VGGSound-Test, Kling-Audio-Eval, and MovieGen-Audio-Bench.
+
+- Highest CLAP scores (better semantic alignment)
+- Lowest DeSync (better temporal synchronization)
+- Best overall IS (better audio quality). Up to 27% relative improvement (22.08 vs. 17.36 on VGGSound)
+
+<div align="center">
+    <img src="assets/result1.png" width="80%">
+</div>
+
+<hr>
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
