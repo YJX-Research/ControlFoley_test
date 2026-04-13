@@ -197,10 +197,39 @@ ControlFoley achieves the best performance across all evaluation metrics on the 
 Notably, it outperforms CondFoleyGen, a specialized in-domain baseline, demonstrating strong generalization ability.
 
 <div align="center">
-    <img src="assets/result3.png" width="80%">
+    <img src="assets/result3.png" width="60%">
 </div>
 
 ##
 ControlFoley also demonstrates competitive or superior performance compared to strong proprietary systems such as Kling-Foley, highlighting its effectiveness as an open and controllable solution.
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🛠 **Quick Start**
+
+### Prerequisites
+
+- Python 3.10+
+- PyTorch 2.5.1+
+- CUDA 11.8+
+- FFmpeg (conda install -c conda-forge ffmpeg)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ControlFoley/ControlFoley.git
+cd ControlFoley
+
+# Create conda environment
+conda create -n controlfoley python=3.10.16
+conda activate controlfoley
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download pretrained weights
+git clone https://huggingface.co/xxx ckpts
+```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
