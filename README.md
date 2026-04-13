@@ -183,7 +183,7 @@ ControlFoley demonstrates strong textual controllability under increasing visual
 - Achieves better balance between controllability and generation quality  
 
 <div align="center">
-    <img src="assets/result2.png" width="80%">
+    <img src="assets/result2.png" width="60%">
 </div>
 
 🎧 AC-V2A
