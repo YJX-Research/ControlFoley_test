@@ -23,7 +23,7 @@
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
-## 👥 **Authors**
+### 👥 **Authors**
 
 <div>
     <!-- Row 1: 5 authors -->
@@ -54,8 +54,6 @@
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
-<div align="center">
-
 ## 📰 **News**
 
 - [2026-04] Technical report released on [arXiv](xxx).
@@ -64,5 +62,4 @@
 - [2026-04] Online demo is available on [demo page](xxx).
 - [Coming Soon] Skill XXX will be released.
 
-
-
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
