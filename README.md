@@ -77,9 +77,10 @@
 ## 📺 **Intro Video**
 
 <p align="center">
-  <video width="720" controls>
+  <video width="720" controls muted loop autoplay>
     <source src="https://YJX-Research.github.io/ControlFoley/Videos/introduction_video.mp4" type="video/mp4">
   </video>
+  <img src="https://YJX-Research.github.io/ControlFoley/Videos/introduction_video.mp4" width="720" />
 </p>
 
 For more results, visit [Demo Page](https://yjx-research.github.io/ControlFoley_demo_page/).
