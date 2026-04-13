@@ -15,7 +15,7 @@
   &nbsp;
   <a href="https://yjx-research.github.io/ControlFoley_demo_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Demo Page-Demo-blue" alt="Demo Page"/></a>
   &nbsp;
-  <a href="xxx" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
+  <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
 </p>
 
 </div>
@@ -218,7 +218,7 @@ ControlFoley also demonstrates competitive or superior performance compared to s
 
 ```bash
 # Clone the repository
-git clone https://github.com/ControlFoley/ControlFoley.git
+git clone xxx
 cd ControlFoley
 
 # Create conda environment
