@@ -116,4 +116,28 @@ ControlFoley supports a wide range of applications:
 - 📝 Text-to-Audio Generation (TTA)
   Generate audio directly from text prompts as an additional capability of the unified framework.
 
-  <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🧠 **Key Innovations**
+
+<div align="center">
+    <img src="assets/controlfoley.png" width="100%">
+</div>
+
+- Joint Visual Encoding for Robust Multimodal Control
+  Combines CLIP and CAV-MAE-ST representations to capture both vision-language and audio-visual correlations, improving robustness under modality conflict.
+
+- Timbre-Focused Reference Audio Control
+  Extracts global timbre representations while suppressing temporal cues, enabling precise acoustic style control without affecting synchronization.
+
+- Modality-Robust Training with Unified Alignment
+  Introduces all-modality dropout and a unified REPA objective to improve robustness across diverse modality combinations.
+
+- VGGSound-TVC Benchmark
+  A new benchmark for evaluating textual controllability under visual-text semantic conflicts.
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🧪 **VGGSound-TVC Benchmark**
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
