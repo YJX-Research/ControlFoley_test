@@ -1,3 +1,5 @@
+
+
 <!-- ## **ControlFoley** -->
 
 <div align="center">
@@ -77,10 +79,9 @@
 ## 📺 **Intro Video**
 
 <p align="center">
-  <video width="720" controls muted loop autoplay>
-    <source src="https://YJX-Research.github.io/ControlFoley/Videos/introduction_video.mp4" type="video/mp4">
-  </video>
-  <img src="https://YJX-Research.github.io/ControlFoley/Videos/introduction_video.mp4" width="720" />
+  <a href="https://YJX-Research.github.io/ControlFoley/Videos/introduction_video.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/▶️ Watch Intro Video-FF0000?style=for-the-badge&logo=youtube" width="720">
+  </a>
 </p>
 
 For more results, visit [Demo Page](https://yjx-research.github.io/ControlFoley_demo_page/).
