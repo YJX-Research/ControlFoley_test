@@ -1,7 +1,5 @@
 <!-- ## **ControlFoley** -->
 
-[中文阅读](./README_zh.md)
-
 <div align="center">
 
 # ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling
@@ -25,7 +23,7 @@
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
-### 👥 **Authors**
+## 👥 **Authors**
 
 <div>
     <!-- Row 1: 5 authors -->
@@ -55,4 +53,16 @@
 </div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+<div align="center">
+
+## 📰 **News**
+
+- [2026-04] Technical report released on [arXiv](xxx).
+- [2026-04] [Project page](https://yjx-research.github.io/ControlFoley_web_page/) is now live.
+- [2026-04] [Inference code](xxx) and [pretrained models](xxx) are released.
+- [2026-04] Online demo is available on [demo page](xxx).
+- [Coming Soon] Skill XXX will be released.
+
+
 
