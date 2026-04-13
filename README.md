@@ -83,3 +83,19 @@ https://github.com/user-attachments/assets/29ce9083-7a95-4c7d-930f-49f62dc84543
 For more results, visit [Demo Page](https://yjx-research.github.io/ControlFoley_demo_page/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🎧 **Overview**
+
+ControlFoley is a unified and controllable multimodal video-to-audio (V2A) generation framework that enables precise control over generated audio using video, text, and reference audio.
+
+Unlike existing methods that rely on a single modality or struggle under conflicting inputs, ControlFoley is designed to handle complex multimodal interactions and maintain strong controllability even when modalities are inconsistent.
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🎨 **Tease Figure**
+
+<div align="center">
+    <img src="assets/tease.png" width="100%">
+</div>
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
