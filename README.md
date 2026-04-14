@@ -237,7 +237,7 @@ Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/Co
 
 ### 🎨**Inference**
 
-```bash
+```
 python demo.py [OPTIONS]
 
 Options:
@@ -322,7 +322,6 @@ This repository is licensed under the [Apache License 2.0](./LICENSE).
 This project uses the following datasets:<br>
 VGGSound, Kling-Audio-Eval, The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>),
 and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>).
-
 All resources are used for <strong>academic and non-commercial demonstration purposes only</strong>.
 
 This project is inspired by the following works:<br>
@@ -336,4 +335,8 @@ If you have any questions or suggestions, please feel free to contact us at xxx@
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
+<div align="center">
+
 2026 ControlFoley Project. All Rights Reserved.
+
+</div>
