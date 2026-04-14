@@ -313,7 +313,7 @@ If you find this repository useful, please consider citing our paper:
 
 ## 🔒 **License**
 
-This repository is licensed under the [Apache License 2.0](./LICENSE).
+This repository is licensed under the [Apache License 2.0](./LICENSE) and the [model weights](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
