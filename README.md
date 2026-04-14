@@ -28,19 +28,21 @@
 ### 👥 **Authors**
 
 <div>
-    <!-- Row 1: 5 authors -->
+    <!-- Row 1: 6 authors -->
     <div style="margin-bottom: 2px;">
         Jianxuan Yang<sup>1*†</sup>,&nbsp;
         Xinyue Guo<sup>1*</sup>,&nbsp;
         Zhi Cheng<sup>1,2</sup>,&nbsp;
         Kai Wang<sup>1,2</sup>,&nbsp;
-        Lipan Zhang<sup>1</sup>
-    </div>
-    <!-- Row 2: 6 authors -->
-    <div>
+        Lipan Zhang<sup>1</sup>,&nbsp;
         Jinjie Hu<sup>1</sup>,&nbsp;
+    </div>
+    <!-- Row 2: 7 authors -->
+    <div>
         Qiang Ji<sup>1</sup>,&nbsp;
         Yihua Cao<sup>1</sup>,&nbsp;
+        Yihao Meng<sup>1,2</sup>,&nbsp;
+        Zhaoyue Cui<sup>1,2</sup>,&nbsp;
         Mengmei Liu<sup>1</sup>,&nbsp;
         Meng Meng<sup>1</sup>,&nbsp;
         Jian Luan<sup>1</sup>
@@ -80,7 +82,7 @@
 
 https://github.com/user-attachments/assets/29ce9083-7a95-4c7d-930f-49f62dc84543
 
-For more results, visit [Demo Page](https://yjx-research.github.io/ControlFoley_demo_page/).
+For more results of our model, visit [Project Page](https://yjx-research.github.io/ControlFoley_web_page/). For comparison with other methods, visit [Demo Page](https://yjx-research.github.io/ControlFoley_demo_page/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -107,16 +109,16 @@ Unlike existing methods that rely on a single modality or struggle under conflic
 
 ControlFoley supports a wide range of applications:
 
-- 🎬 Video-to-Audio Generation (TV2A)
+- 🎬 <strong>Video-to-Audio Generation (TV2A)</strong>.<br>
   Video-content-adaptive dubbing and synchronized sound effect generation under text guidance.
 
-- 📝 Text-Controlled Audio Generation (TC-V2A)
+- 📝 <strong>Text-Controlled Audio Generation (TC-V2A)</strong>.<br>
   Audio generation under video–text conflicts, with semantics consistent with text prompts and temporally synchronized with video contents.
 
-- 🎧 Reference-Based Audio Control (AC-V2A)
+- 🎧 <strong>Reference-Based Audio Control (AC-V2A)</strong>.<br>
   Audio generation conditioned on reference audio, with timbre consistent with the reference audio and temporally synchronized with video contents.
 
-- 📝 Text-to-Audio Generation (T2A)
+- 📝 <strong>Text-to-Audio Generation (T2A)<strong>.<br>
   Generate audio directly from text prompts as an additional capability of the unified framework.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -127,16 +129,16 @@ ControlFoley supports a wide range of applications:
     <img src="assets/controlfoley.png" width="100%">
 </div>
 
-- Joint Visual Encoding for Robust Multimodal Control
+- Joint Visual Encoding for Robust Multimodal Control<br>
   Combines CLIP and CAV-MAE-ST representations to capture both vision-language and audio-visual correlations, improving robustness under modality conflict.
 
-- Timbre-Focused Reference Audio Control
+- Timbre-Focused Reference Audio Control<br>
   Extracts global timbre representations while suppressing temporal cues, enabling precise acoustic style control without affecting synchronization.
 
-- Modality-Robust Training with Unified Alignment
+- Modality-Robust Training with Unified Alignment<br>
   Introduces all-modality dropout and a unified REPA objective to improve robustness across diverse modality combinations.
 
-- VGGSound-TVC Benchmark
+- VGGSound-TVC Benchmark<br>
   A new benchmark for evaluating textual controllability under visual-text semantic conflicts.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -162,7 +164,7 @@ This enables systematic analysis of modality dominance and controllability under
 
 ControlFoley achieves strong performance across multiple V2A tasks, demonstrating both high generation quality and robust controllability.
 
-🎬 TV2A
+🎬 <strong>TV2A</strong>
 
 ControlFoley achieves state-of-the-art performance across multiple benchmarks, including VGGSound-Test, Kling-Audio-Eval, and MovieGen-Audio-Bench.
 
@@ -174,7 +176,7 @@ ControlFoley achieves state-of-the-art performance across multiple benchmarks, i
     <img src="assets/result1.png" width="80%">
 </div>
 
-📝 TC-V2A
+📝 <strong>TC-V2A</strong>
 
 ControlFoley demonstrates strong textual controllability under increasing visual-text conflict.
 
@@ -186,7 +188,7 @@ ControlFoley demonstrates strong textual controllability under increasing visual
     <img src="assets/result2.png" width="60%">
 </div>
 
-🎧 AC-V2A
+🎧 <strong>AC-V2A</strong>
 
 ControlFoley achieves the best performance across all evaluation metrics on the Greatest Hits dataset:
 
@@ -207,14 +209,14 @@ ControlFoley also demonstrates competitive or superior performance compared to s
 
 ## 🛠 **Quick Start**
 
-### 🔑**Prerequisites**
+### 🔑 **Prerequisites**
 
 - Python 3.10+
 - PyTorch 2.5.1+
 - CUDA 11.8+
 - FFmpeg (conda install -c conda-forge ffmpeg)
 
-### 🧱**Installation**
+### 🧱 **Installation**
 
 ```bash
 # Clone the repository
@@ -235,7 +237,7 @@ huggingface-cli download YJX-Xiaomi/ControlFoley --resume-download --local-dir m
 
 Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) and put them in the `model_weights` folder.
 
-### 🎨**Inference**
+### 🎨 **Inference**
 
 ```
 python demo.py [OPTIONS]
@@ -249,7 +251,7 @@ Options:
   --output_dir TEXT             Output directory for generated audio files. (default: ./output)
 ```
 
-### 📌**Supported Tasks**
+### 📌 **Supported Tasks**
 
 | Task   | video_path | audio_path | prompt   |
 |--------|------------|------------|----------|
@@ -259,7 +261,7 @@ Options:
 | T2A    | None       | None       | required |
 | V2A    | required   | None       | None     |
 
-### 📋**Usage Examples**
+### 📋 **Usage Examples**
 
 - TV2A
 
@@ -313,25 +315,27 @@ If you find this repository useful, please consider citing our paper:
 
 ## 🔒 **License**
 
-This repository is licensed under the [Apache License 2.0](./LICENSE) and the [model weights](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+This repository is licensed under the [Apache License 2.0](./LICENSE) and the [model weights](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) are licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
-## 📚 **Acknowledgments**
+## 🙏 **Acknowledgments**
 
 This project uses the following datasets:<br>
 VGGSound, Kling-Audio-Eval, The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>),
-and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>).
+and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>).<br>
 All resources are used for <strong>academic and non-commercial demonstration purposes only</strong>.
 
 This project is inspired by the following works:<br>
-[ControlNet](https://github.com/lllyasviel/ControlNet), [AudioLM](https://github.com/facebookresearch/AudioLM), [AudioGen](https://github.com/microsoft/AudioGen), [AudioCLIP](https://github.com/openai/audioclip), [Audio-Visual Speech Synthesis](https://github.com/zhaoqiwang/Audio-Visual-Speech-Synthesis), [Speech-to-Text](https://github.com/openai/whisper), [Video-to-Text](https://github.com/openai/CLIP), [Video-to-Audio](https://github.com/CompVis/taming-transformers).
+
+[ControlNet](https://github.com/lllyasviel/ControlNet), [AudioLM](https://github.com/facebookresearch/AudioLM), [AudioGen](https://github.com/microsoft/AudioGen), [AudioCLIP](https://github.com/openai/audioclip), [Audio-Visual Speech Synthesis](https://github.com/zhaoqiwang/Audio-Visual-Speech-Synthesis), [Speech-to-Text](https://github.com/openai/whisper), [Video-to-Text](https://github.com/openai/CLIP), [Video-to-Audio](https://github.com/CompVis/taming-transformers).<br>
+Thanks for their contributions.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
 ## 📞 **Contact**
 
-If you have any questions or suggestions, please feel free to contact us at xxx@xxx.com.
+If you have any questions or suggestions, please feel free to contact us at yangjianxuan@xiaomi.com.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
