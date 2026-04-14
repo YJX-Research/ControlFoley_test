@@ -264,31 +264,31 @@ Options:
 - TV2A
 
 ```bash
-python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --duration 5.0 --output "./output"
+python demo.py --video "assets/001.mp4" --prompt "the skateboard wheels scraping and grinding on the ground." --duration 8.0 --output "./output"
 ```
 
 - TC-V2A
 
 ```bash
-python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --duration 5.0 --output "./output"
+python demo.py --video "assets/002.mp4" --prompt "man whistling." --duration 8.0 --output "./output"
 ```
 
 - AC-V2A
 
 ```bash
-python demo.py --video_path "assets/001.mp4" --audio_path "assets/001.wav" --duration 5.0 --output "./output"
+python demo.py --video "assets/003.mp4" --audio "assets/003.wav" --duration 8.0 --output "./output"
 ```
 
 - T2A
 
 ```bash
-python demo.py --prompt "A man is playing the piano." --duration 5.0 --output "./output"
+python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 --output "./output"
 ```
 
 - V2A
 
 ```bash
-python demo.py --video_path "assets/001.mp4" --duration 5.0 --output "./output"
+python demo.py --video "assets/004.mp4" --duration 8.0 --output "./output"
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
