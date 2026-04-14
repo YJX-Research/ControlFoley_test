@@ -35,7 +35,7 @@
         Zhi Cheng<sup>1,2</sup>,&nbsp;
         Kai Wang<sup>1,2</sup>,&nbsp;
         Lipan Zhang<sup>1</sup>,&nbsp;
-        Jinjie Hu<sup>1</sup>,&nbsp;
+        Jinjie Hu<sup>1</sup>
     </div>
     <!-- Row 2: 7 authors -->
     <div>
