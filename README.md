@@ -292,3 +292,48 @@ python demo.py --video "assets/004.mp4" --duration 8.0 --output "./output"
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 📝 **Citation**
+
+If you find this repository useful, please consider citing our paper:
+
+```bibtex
+@misc{xxx,
+  title={xxx},
+  author={xxx},
+  year={2026},
+  eprint={xxx},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/xxx}
+}
+```
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 🔒 **License**
+
+This repository is licensed under the [Apache License 2.0](./LICENSE).
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 📚 **Acknowledgments**
+
+This project uses the following datasets:<br>
+VGGSound, Kling-Audio-Eval, The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>),
+and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>).
+
+All resources are used for <strong>academic and non-commercial demonstration purposes only</strong>.
+
+This project is inspired by the following works:<br>
+[ControlNet](https://github.com/lllyasviel/ControlNet), [AudioLM](https://github.com/facebookresearch/AudioLM), [AudioGen](https://github.com/microsoft/AudioGen), [AudioCLIP](https://github.com/openai/audioclip), [Audio-Visual Speech Synthesis](https://github.com/zhaoqiwang/Audio-Visual-Speech-Synthesis), [Speech-to-Text](https://github.com/openai/whisper), [Video-to-Text](https://github.com/openai/CLIP), [Video-to-Audio](https://github.com/CompVis/taming-transformers).
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+## 📞 **Contact**
+
+If you have any questions or suggestions, please feel free to contact us at xxx@xxx.com.
+
+<hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
+
+2026 ControlFoley Project. All Rights Reserved.
