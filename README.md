@@ -118,7 +118,7 @@ ControlFoley supports a wide range of applications:
 - 🎧 <strong>Reference-Based Audio Control (AC-V2A)</strong>.<br>
   Audio generation conditioned on reference audio, with timbre consistent with the reference audio and temporally synchronized with video contents.
 
-- 📝 <strong>Text-to-Audio Generation (T2A)<strong>.<br>
+- 📝 <strong>Text-to-Audio Generation (T2A)</strong>.<br>
   Generate audio directly from text prompts as an additional capability of the unified framework.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
