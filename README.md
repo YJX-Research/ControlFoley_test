@@ -229,8 +229,11 @@ conda activate controlfoley
 pip install -r requirements.txt
 
 # Download pretrained weights
-git clone https://huggingface.co/YJX-Xiaomi/ControlFoley model_weights
+pip install -U huggingface_hub
+huggingface-cli download YJX-Xiaomi/ControlFoley --local-dir model_weights --local-dir-use-symlinks False
 ```
+
+Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) and put them in the `model_weights` folder.
 
 ### Supported Tasks
 
