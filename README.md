@@ -60,7 +60,7 @@
 
 - [2026-04] Technical report released on [arXiv](xxx).
 - [2026-04] [Project page](https://yjx-research.github.io/ControlFoley_web_page/) is now live.
-- [2026-04] [Inference code](xxx) and [pretrained models](xxx) are released.
+- [2026-04] [Inference code](xxx) and [pretrained models](https://huggingface.co/YJX-Xiaomi/ControlFoley) are released.
 - [2026-04] Online demo is available on [Project Page](https://yjx-research.github.io/ControlFoley_web_page/).
 - [Coming Soon] Skill XXX will be released.
 
@@ -229,7 +229,7 @@ conda activate controlfoley
 pip install -r requirements.txt
 
 # Download pretrained weights
-pip install -U huggingface_hub
+pip install huggingface-hub==0.25.1
 huggingface-cli download YJX-Xiaomi/ControlFoley --local-dir model_weights --local-dir-use-symlinks False
 ```
 
