@@ -129,16 +129,16 @@ ControlFoley supports a wide range of applications:
     <img src="assets/controlfoley.png" width="100%">
 </div>
 
-- Joint Visual Encoding for Robust Multimodal Control<br>
+- <strong>Joint Visual Encoding for Robust Multimodal Control:</strong>
   Combines CLIP and CAV-MAE-ST representations to capture both vision-language and audio-visual correlations, improving robustness under modality conflict.
 
-- Timbre-Focused Reference Audio Control<br>
+- <strong>Timbre-Focused Reference Audio Control:</strong>
   Extracts global timbre representations while suppressing temporal cues, enabling precise acoustic style control without affecting synchronization.
 
-- Modality-Robust Training with Unified Alignment<br>
+- <strong>Modality-Robust Training with Unified Alignment:</strong>
   Introduces all-modality dropout and a unified REPA objective to improve robustness across diverse modality combinations.
 
-- VGGSound-TVC Benchmark<br>
+- <strong>VGGSound-TVC Benchmark:</strong>
   A new benchmark for evaluating textual controllability under visual-text semantic conflicts.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -243,12 +243,12 @@ Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/Co
 python demo.py [OPTIONS]
 
 Options:
-  --video_path TEXT             Path to the input video file. (default: None)
-  --audio_path TEXT             Path to the input audio file. (default: None)
-  --prompt TEXT                 Textual prompt for audio generation. (default: None)
-  --negative_prompt TEXT        Negative textual prompt for audio generation. (default: None)
-  --duration FLOAT              Duration of the generated audio in seconds. (default: 8.0)
-  --output_dir TEXT             Output directory for generated audio files. (default: ./output)
+  --video_path       TEXT       Path to the input video file. (default: None)
+  --audio_path       TEXT       Path to the input reference audio file. (default: None)
+  --prompt           TEXT       Textual prompt for audio generation. (default: None)
+  --negative_prompt  TEXT       Negative textual prompt for audio generation. (default: None)
+  --duration         FLOAT      Duration of the generated audio in seconds. (default: 8.0)
+  --output_dir       TEXT       Output directory for generated audio files. (default: ./output)
 ```
 
 ### 📌 **Supported Tasks**
