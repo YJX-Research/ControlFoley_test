@@ -116,7 +116,7 @@ ControlFoley supports a wide range of applications:
 - 🎧 Reference-Based Audio Control (AC-V2A)
   Audio generation conditioned on reference audio, with timbre consistent with the reference audio and temporally synchronized with video contents.
 
-- 📝 Text-to-Audio Generation (TTA)
+- 📝 Text-to-Audio Generation (T2A)
   Generate audio directly from text prompts as an additional capability of the unified framework.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -253,17 +253,20 @@ Options:
 
 | Task   | video_path | audio_path | prompt   |
 |--------|------------|------------|----------|
-| TV2A   | required   | None       | optional |
+| TV2A   | required   | None       | required |
 | TC-V2A | required   | None       | required |
 | AC-V2A | required   | required   | optional |
 | T2A    | None       | None       | required |
+| V2A    | required   | None       | None     |
 
 ### Usage Examples
 
-#### TV2A
+- TV2A
 
 ```bash
 python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --negative_prompt "man speaking" --output "./output"
 ```
+
+- TC-V2A
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
