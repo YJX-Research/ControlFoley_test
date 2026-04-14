@@ -230,17 +230,33 @@ pip install -r requirements.txt
 
 # Download pretrained weights
 pip install huggingface-hub==0.26.2
-huggingface-cli download YJX-Xiaomi/ControlFoley --local-dir model_weights --local-dir-use-symlinks False
+huggingface-cli download YJX-Xiaomi/ControlFoley --resume-download --local-dir model_weights --local-dir-use-symlinks False
 ```
 
 Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) and put them in the `model_weights` folder.
 
+### Inference
+
+```bash
+python demo.py [OPTIONS]
+
+Options:
+  --video_path TEXT             Path to the input video file. (default: None)
+  --audio_path TEXT             Path to the input audio file. (default: None)
+  --prompt TEXT                 Textual prompt for audio generation. (default: None)
+  --negative_prompt TEXT        Negative textual prompt for audio generation. (default: None)
+  --duration FLOAT              Duration of the generated audio in seconds. (default: 8.0)
+  --output_dir TEXT             Output directory for generated audio files. (default: ./output)
+```
+
 ### Supported Tasks
 
-- TV2A: 
-- TC-V2A: 
-- AC-V2A: 
-- T2A: 
+| Task   | video_path | audio_path | prompt   |
+|--------|------------|------------|----------|
+| TV2A   | required   | None       | optional |
+| TC-V2A | required   | None       | required |
+| AC-V2A | required   | required   | optional |
+| T2A    | None       | None       | required |
 
 ### Usage Examples
 
