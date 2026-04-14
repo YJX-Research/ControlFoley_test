@@ -20,6 +20,10 @@
 
 </div>
 
+<p align="center">
+ If you find this project useful, please consider giving a star ⭐️~
+</p>
+
 
 <div align="center">
 
