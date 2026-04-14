@@ -258,8 +258,8 @@ Options:
 | TV2A   | required   | None       | required |
 | TC-V2A | required   | None       | required |
 | AC-V2A | required   | required   | optional |
-| T2A    | None       | None       | required |
 | V2A    | required   | None       | None     |
+| T2A    | None       | None       | required |
 
 ### 📋 **Usage Examples**
 
@@ -281,16 +281,16 @@ python demo.py --video "assets/002.mp4" --prompt "man whistling." --duration 8.0
 python demo.py --video "assets/003.mp4" --audio "assets/003.wav" --duration 8.0 --output "./output"
 ```
 
-- T2A
-
-```bash
-python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 --output "./output"
-```
-
 - V2A
 
 ```bash
 python demo.py --video "assets/004.mp4" --duration 8.0 --output "./output"
+```
+
+- T2A
+
+```bash
+python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 --output "./output"
 ```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
@@ -327,8 +327,7 @@ and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.
 All resources are used for <strong>academic and non-commercial demonstration purposes only</strong>.
 
 This project is inspired by the following works:<br>
-
-[ControlNet](https://github.com/lllyasviel/ControlNet), [AudioLM](https://github.com/facebookresearch/AudioLM), [AudioGen](https://github.com/microsoft/AudioGen), [AudioCLIP](https://github.com/openai/audioclip), [Audio-Visual Speech Synthesis](https://github.com/zhaoqiwang/Audio-Visual-Speech-Synthesis), [Speech-to-Text](https://github.com/openai/whisper), [Video-to-Text](https://github.com/openai/CLIP), [Video-to-Audio](https://github.com/CompVis/taming-transformers).<br>
+[stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools), [MMAudio](https://github.com/hkchengrex/MMAudio), [Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2), [Synchformer](https://github.com/v-iashin/Synchformer), [audiocraft](https://github.com/facebookresearch/audiocraft).<br>
 Thanks for their contributions.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
