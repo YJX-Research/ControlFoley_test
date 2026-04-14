@@ -229,7 +229,7 @@ conda activate controlfoley
 pip install -r requirements.txt
 
 # Download pretrained weights
-pip install huggingface-hub==0.25.1
+pip install huggingface-hub==0.26.2
 huggingface-cli download YJX-Xiaomi/ControlFoley --local-dir model_weights --local-dir-use-symlinks False
 ```
 
