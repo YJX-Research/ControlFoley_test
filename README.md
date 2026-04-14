@@ -207,14 +207,14 @@ ControlFoley also demonstrates competitive or superior performance compared to s
 
 ## 🛠 **Quick Start**
 
-### Prerequisites
+### 🔑**Prerequisites**
 
 - Python 3.10+
 - PyTorch 2.5.1+
 - CUDA 11.8+
 - FFmpeg (conda install -c conda-forge ffmpeg)
 
-### Installation
+### 🧱**Installation**
 
 ```bash
 # Clone the repository
@@ -235,7 +235,7 @@ huggingface-cli download YJX-Xiaomi/ControlFoley --resume-download --local-dir m
 
 Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/ControlFoley/tree/main/) and put them in the `model_weights` folder.
 
-### Inference
+### 🎨**Inference**
 
 ```bash
 python demo.py [OPTIONS]
@@ -249,7 +249,7 @@ Options:
   --output_dir TEXT             Output directory for generated audio files. (default: ./output)
 ```
 
-### Supported Tasks
+### 📌**Supported Tasks**
 
 | Task   | video_path | audio_path | prompt   |
 |--------|------------|------------|----------|
@@ -259,14 +259,36 @@ Options:
 | T2A    | None       | None       | required |
 | V2A    | required   | None       | None     |
 
-### Usage Examples
+### 📋**Usage Examples**
 
 - TV2A
 
 ```bash
-python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --negative_prompt "man speaking" --output "./output"
+python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --duration 5.0 --output "./output"
 ```
 
 - TC-V2A
+
+```bash
+python demo.py --video_path "assets/001.mp4" --prompt "A man is playing the piano." --duration 5.0 --output "./output"
+```
+
+- AC-V2A
+
+```bash
+python demo.py --video_path "assets/001.mp4" --audio_path "assets/001.wav" --duration 5.0 --output "./output"
+```
+
+- T2A
+
+```bash
+python demo.py --prompt "A man is playing the piano." --duration 5.0 --output "./output"
+```
+
+- V2A
+
+```bash
+python demo.py --video_path "assets/001.mp4" --duration 5.0 --output "./output"
+```
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
