@@ -115,16 +115,16 @@ Unlike existing methods that rely on a single modality or struggle under conflic
 
 ControlFoley supports a wide range of applications:
 
-- 🎬 <strong>Text-Video-to-Audio Generation (TV2A)</strong>.<br>
+- 🎬 <strong>Text-Video-to-Audio Generation (TV2A)</strong><br>
   Video-content-adaptive dubbing and synchronized sound effect generation under text guidance.
 
-- 📝 <strong>Text-Controlled Video-to-Audio (TC-V2A)</strong>.<br>
+- 📝 <strong>Text-Controlled Video-to-Audio (TC-V2A)</strong><br>
   Audio generation under video–text conflicts, with semantics consistent with text prompts and temporally synchronized with video contents.
 
-- 🎧 <strong>Audio-Controlled Video-to-Audio (AC-V2A)</strong>.<br>
+- 🎧 <strong>Audio-Controlled Video-to-Audio (AC-V2A)</strong><br>
   Audio generation conditioned on reference audio, with timbre consistent with the reference audio and temporally synchronized with video contents.
 
-- 📝 <strong>Text-to-Audio Generation (T2A)</strong>.<br>
+- 📝 <strong>Text-to-Audio Generation (T2A)</strong><br>
   Generate audio directly from text prompts as an additional capability of the unified framework.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
