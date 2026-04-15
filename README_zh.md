@@ -15,7 +15,7 @@
   &nbsp;
   <a href="https://yjx-research.github.io/ControlFoley_web_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Project Page-Project-blue" alt="Project Page"/></a>
   &nbsp;
-  <a href="https://yjx-research.github.io/ControlFoley_demo_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Demo Page-Demo-blue" alt="Demo Page"/></a>
+  <a href="https://yjx-research.github.io/ControlFoley/" style="text-decoration:none"><img src="https://img.shields.io/badge/Demo Page-Demo-blue" alt="Demo Page"/></a>
   &nbsp;
   <a href="https://huggingface.co/YJX-Xiaomi/ControlFoley" style="text-decoration:none"><img src="https://img.shields.io/badge/HuggingFace-Models-orange?logo=huggingface" alt="Hugging Face"/></a>
 </p>
@@ -79,8 +79,8 @@
 - [x] 在 arXiv 上发布技术报告。
 - [x] 发布项目页面。
 - [x] 发布推理代码与预训练模型。
-- [x] 发布在线推理代码（可在项目页面获取
-- [ ] 发布 skill
+- [x] 发布在线推理代码（可在项目页面获取。
+- [ ] 发布 skill。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -88,7 +88,7 @@
 
 https://github.com/user-attachments/assets/29ce9083-7a95-4c7d-930f-49f62dc84543
 
-如需获取本模型的更多结果, 请访问[项目界面](https://yjx-research.github.io/ControlFoley_web_page/)。 如需查看本方法与其他方法的对比结果, 请访问[Demo界面](https://yjx-research.github.io/ControlFoley_demo_page/)。
+如需获取本模型的更多结果, 请访问[项目界面](https://yjx-research.github.io/ControlFoley_web_page/)。 如需查看本方法与其他方法的对比结果, 请访问[Demo界面](https://yjx-research.github.io/ControlFoley/)。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
