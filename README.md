@@ -2,6 +2,8 @@
 
 <!-- ## **ControlFoley** -->
 
+[中文阅读](./README_zh.md)
+
 <div align="center">
 
 # ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling
