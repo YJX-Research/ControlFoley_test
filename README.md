@@ -86,7 +86,7 @@ If you find this project useful, please consider giving a star ⭐️~
 
 ## 📺 **Intro Video**
 
-https://github.com/user-attachments/assets/29ce9083-7a95-4c7d-930f-49f62dc84543
+https://github.com/user-attachments/assets/d63e9837-a568-4521-9009-58b4105214a9
 
 For more results of our model, visit [Project Page](https://yjx-research.github.io/ControlFoley_web_page/). For comparison with other methods, visit [Demo Page](https://yjx-research.github.io/ControlFoley/).
 
