@@ -227,7 +227,7 @@ ControlFoley also demonstrates competitive or superior performance compared to s
 ```bash
 # Clone the repository
 git clone https://github.com/xiaomi-research/controlfoley
-cd ControlFoley
+cd controlfoley
 
 # Create conda environment
 conda create -n controlfoley python=3.10.16
