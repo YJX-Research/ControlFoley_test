@@ -227,7 +227,7 @@ ControlFoley 在与 Kling-Foley 等强大的专用闭源系统相比时，同样
 ```bash
 # 克隆该代码仓库
 git clone https://github.com/xiaomi-research/controlfoley
-cd ControlFoley
+cd controlfoley
 
 # 创建 conda 环境
 conda create -n controlfoley python=3.10.16
