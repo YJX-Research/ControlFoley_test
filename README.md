@@ -11,7 +11,7 @@
 <p align="center">
   <a href="xxx" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/></a>
   &nbsp;
-  <a href="xxx" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub.io-Code-blue?logo=Github&style=flat-square" alt="GitHub"/></a>
+  <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub.io-Code-blue?logo=Github&style=flat-square" alt="GitHub"/></a>
   &nbsp;
   <a href="https://yjx-research.github.io/ControlFoley_web_page/" style="text-decoration:none"><img src="https://img.shields.io/badge/Project Page-Project-blue" alt="Project Page"/></a>
   &nbsp;
@@ -58,7 +58,7 @@ If you find this project useful, please consider giving a star ⭐️~
 <div>
     <sup>1</sup> MiLM Plus, Xiaomi Inc. &nbsp;&nbsp;• <sup>2</sup> Wuhan University
     <br>
-    * Equal contribution &nbsp;&nbsp;• †Corresponding author
+    * Equal contribution &nbsp;&nbsp;• † Corresponding author
 </div>
 </div>
 
@@ -68,19 +68,19 @@ If you find this project useful, please consider giving a star ⭐️~
 
 - [2026-04] Technical report released on [arXiv](xxx).
 - [2026-04] [Project page](https://yjx-research.github.io/ControlFoley_web_page/) is now live.
-- [2026-04] [Inference code](xxx) and [pretrained models](https://huggingface.co/YJX-Xiaomi/ControlFoley) are released.
-- [2026-04] Online demo is available on [Project Page](https://yjx-research.github.io/ControlFoley_web_page/).
-- [Coming Soon] Skill XXX will be released.
+- [2026-04] [Inference code](https://github.com/xiaomi-research/controlfoley) and [pretrained models](https://huggingface.co/YJX-Xiaomi/ControlFoley) are released.
+- [2026-04] Online demo is available on [Project Page](https://yjx-research.github.io/ControlFoley_web_page/), click "Try Now" to experience it immediately.
+- [Coming Soon] Skill will be released.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
 ## 🔄 **Updates**
 
-- [x] Release technical report on arXiv
-- [x] Launch project page
-- [x] Release inference code and pretrained models
-- [x] Launch online inference demo (available on project page)
-- [ ] Release skill named XXX
+- [x] Release technical report on arXiv.
+- [x] Launch project page.
+- [x] Release inference code and pretrained models.
+- [x] Launch online inference demo (available on project page).
+- [ ] Release skill.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
@@ -151,7 +151,7 @@ ControlFoley supports a wide range of applications:
 
 ## 🧪 **VGGSound-TVC Benchmark**
 
-We propose VGGSound-TVC to evaluate text controllability under varying levels of visual-text conflict.
+We propose VGGSound-TVC to evaluate text controllability under varying levels of visual-text conflict. In this dataset, textual descriptions of videos are reconstructed in accordance with the rules described below.
 
 - L0 → No conflict, where the textual description is consistent with the video content.
 - L1_subject →  A mild semantic conflict introduced at the subject level, where the action description remains unchanged while the sounding subject is replaced.
@@ -196,7 +196,7 @@ ControlFoley demonstrates strong textual controllability under increasing visual
 
 🎧 <strong>AC-V2A</strong>
 
-ControlFoley achieves the best performance across all evaluation metrics on the Greatest Hits dataset:
+ControlFoley achieves the best performance across all evaluation metrics on the Greatest Hits dataset.
 
 - Better timbre similarity (Resemblyzer)  
 - Better synchronization (DeSync)  
@@ -226,7 +226,7 @@ ControlFoley also demonstrates competitive or superior performance compared to s
 
 ```bash
 # Clone the repository
-git clone xxx
+git clone https://github.com/xiaomi-research/controlfoley
 cd ControlFoley
 
 # Create conda environment
@@ -249,17 +249,17 @@ Or you can download the weights from [here](https://huggingface.co/YJX-Xiaomi/Co
 python demo.py [OPTIONS]
 
 Options:
-  --video_path       TEXT       Path to the input video file. (default: None)
-  --audio_path       TEXT       Path to the input reference audio file. (default: None)
+  --video            TEXT       Path to the input video file. (default: None)
+  --audio            TEXT       Path to the input reference audio file. (default: None)
   --prompt           TEXT       Textual prompt for audio generation. (default: None)
   --negative_prompt  TEXT       Negative textual prompt for audio generation. (default: None)
   --duration         FLOAT      Duration of the generated audio in seconds. (default: 8.0)
-  --output_dir       TEXT       Output directory for generated audio files. (default: ./output)
+  --output           TEXT       Output directory for generated audio files. (default: ./output)
 ```
 
 ### 📌 **Supported Tasks**
 
-| Task   | video_path | audio_path | prompt   |
+| Task   | video      | audio      | prompt   |
 |--------|------------|------------|----------|
 | TV2A   | required   | None       | required |
 | TC-V2A | required   | None       | required |
@@ -333,7 +333,7 @@ and MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.
 All resources are used for <strong>academic and non-commercial demonstration purposes only</strong>.
 
 This project is inspired by the following works:<br>
-[stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools), [MMAudio](https://github.com/hkchengrex/MMAudio), [Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2), [Synchformer](https://github.com/v-iashin/Synchformer), [audiocraft](https://github.com/facebookresearch/audiocraft).<br>
+[stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools), [MMAudio](https://github.com/hkchengrex/MMAudio), [Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2), [Synchformer](https://github.com/v-iashin/Synchformer), and [audiocraft](https://github.com/facebookresearch/audiocraft).<br>
 Thanks for their contributions.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
