@@ -56,9 +56,9 @@
 </div>
 <!-- Affiliations -->
 <div>
-    <sup>1</sup> 小米大模型Plus. &nbsp;&nbsp;• <sup>2</sup> 武汉大学
+    <sup>1</sup> 小米大模型Plus. &nbsp;&nbsp; <sup>2</sup> 武汉大学
     <br>
-    * 同等贡献 &nbsp;&nbsp;• † 通讯作者
+    * 同等贡献 &nbsp;&nbsp; † 通讯作者
 </div>
 </div>
 
