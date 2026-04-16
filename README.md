@@ -176,8 +176,7 @@ ControlFoley achieves state-of-the-art performance across multiple benchmarks, i
 
 - Highest CLAP scores (better semantic alignment)
 - Lowest DeSync (better temporal synchronization)
-- Best overall IS (better audio quality)
-  Up to 27% relative improvement. (22.08 vs. 17.36 on VGGSound)
+- Best overall IS (better audio quality)-Up to 27% relative improvement. (22.08 vs. 17.36 on VGGSound)
 
 <div align="center">
     <img src="assets/result1.png" width="80%">
