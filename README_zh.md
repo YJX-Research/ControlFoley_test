@@ -161,7 +161,7 @@ ControlFoley 支持广泛的应用场景：
 
 上述基准使得我们能够在视觉-文本的不一致性不断加剧的情况下，对模态主导性与可控性开展系统性分析。以下为来自 VGGSound-TVC 数据集的示例样本。
 <div align="center">
-    <img src="assets/benchmark.png" width="80%">
+    <img src="assets/benchmark.png" width="100%">
 </div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
