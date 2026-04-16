@@ -155,7 +155,7 @@ We propose VGGSound-TVC to evaluate text controllability under varying levels of
 
 - L0 → No conflict, where the textual description is consistent with the video content.
 - L1_subject →  A mild semantic conflict introduced at the subject level, where the action description remains unchanged while the sounding subject is replaced.
-- L1_subject → A mild semantic conflict introduced at the action level, where the subject remains unchanged while the action description is modified.
+- L1_action → A mild semantic conflict introduced at the action level, where the subject remains unchanged while the action description is modified.
 - L2 → A moderate semantic conflict in which the textual description belongs to a different semantic category while still maintaining a similar temporal structure or acoustic rhythm.
 - L3 → Strong conflict, where the textual description is randomly substituted.
 
