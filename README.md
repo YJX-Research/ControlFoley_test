@@ -56,9 +56,9 @@ If you find this project useful, please consider giving a star ⭐️~
 </div>
 <!-- Affiliations -->
 <div>
-    <sup>1</sup> MiLM Plus, Xiaomi Inc. &nbsp;&nbsp; <sup>2</sup> Wuhan University
+    <sup>1</sup>MiLM Plus, Xiaomi Inc. &nbsp;&nbsp; <sup>2</sup>Wuhan University
     <br>
-    * Equal contribution &nbsp;&nbsp; † Corresponding author
+    *Equal contribution &nbsp;&nbsp; †Corresponding author
 </div>
 </div>
 
