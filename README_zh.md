@@ -79,7 +79,7 @@
 - [x] 在 arXiv 上发布技术报告。
 - [x] 发布项目页面。
 - [x] 发布推理代码与预训练模型。
-- [x] 发布在线推理代码（可在项目页面获取。
+- [x] 发布在线推理代码（可在项目页面获取）。
 - [ ] 发布 skill。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
