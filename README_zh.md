@@ -328,12 +328,12 @@ python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 -
 ## 🙏 **致谢**
 
 本项目使用以下数据集：<br>
-VGGSound, Kling-Audio-Eval, The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>),
-以及 MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>).<br>
+VGGSound，Kling-Audio-Eval，The Greatest Hits (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color:#007bff; text-decoration:none;">CC BY 4.0</a>)
+以及 MovieGen-Audio-Bench (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#dc3545; text-decoration:none;">CC BY-NC 4.0</a>)。<br>
 所有数据仅用于<strong>学术及非商业展示用途</strong>。
 
 感谢以下项目的贡献：<br>
-[stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools), [MMAudio](https://github.com/hkchengrex/MMAudio), [Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2), [Synchformer](https://github.com/v-iashin/Synchformer), 以及 [audiocraft](https://github.com/facebookresearch/audiocraft).<br>
+[stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools)，[MMAudio](https://github.com/hkchengrex/MMAudio)，[Make-An-Audio 2](https://github.com/bytedance/Make-An-Audio-2)，[Synchformer](https://github.com/v-iashin/Synchformer)以及 [audiocraft](https://github.com/facebookresearch/audiocraft)。<br>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
 
