@@ -161,7 +161,7 @@ We propose VGGSound-TVC to evaluate text controllability under varying levels of
 
 This enables systematic analysis of modality dominance and controllability under increasing inconsistency. Example samples from VGGSound-TVC are as follows.
 <div align="center">
-    <img src="assets/benchmark.png" width="80%">
+    <img src="assets/benchmark.png" width="100%">
 </div>
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
