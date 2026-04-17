@@ -6,8 +6,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from lib.rotary_embeddings import compute_rope_rotations
 from lib.embeddings import TimestepEmbedder
-from foley_edit.neural_blocks import MLP, REPA_MLP, REPA_MLP_large, ChannelLastConv1d, ConvMLP
-from foley_edit.attention_layers import (FinalBlock, JointBlock, MMDitSingleBlock)
+from controlfoley.neural_blocks import MLP, REPA_MLP, REPA_MLP_large, ChannelLastConv1d, ConvMLP
+from controlfoley.attention_layers import (FinalBlock, JointBlock, MMDitSingleBlock)
 
 log = logging.getLogger()
 

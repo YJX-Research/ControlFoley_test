@@ -7,11 +7,11 @@ import torch
 from colorlog import ColoredFormatter
 from PIL import Image
 from torchvision.transforms import v2
-from foley_edit.media_utils import ImageData, MediaClipData, extract_video_segments, encode_media_with_sound
+from controlfoley.media_utils import ImageData, MediaClipData, extract_video_segments, encode_media_with_sound
 from lib.flow_matching import FlowMatching
-from foley_edit.audio_model import AudioGenerationNetwork
-from foley_edit.temporal_config import DEFAULT_44K_CONFIG, TemporalConfiguration
-from foley_edit.feature_extractor import FeaturesUtils
+from controlfoley.audio_model import AudioGenerationNetwork
+from controlfoley.temporal_config import DEFAULT_44K_CONFIG, TemporalConfiguration
+from controlfoley.feature_extractor import FeaturesUtils
 
 
 log = logging.getLogger()

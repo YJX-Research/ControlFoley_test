@@ -11,11 +11,11 @@ import time
 import logging
 import torchaudio
 from argparse import ArgumentParser
-from foley_edit.inference_utils import (ModelConfig, all_model_cfg, generate, load_video, make_video,
+from controlfoley.inference_utils import (ModelConfig, all_model_cfg, generate, load_video, make_video,
                                 setup_eval_logging)
 from lib.flow_matching import FlowMatching
-from foley_edit.audio_model import AudioGenerationNetwork, create_audio_generation_model
-from foley_edit.feature_extractor import FeaturesUtils
+from controlfoley.audio_model import AudioGenerationNetwork, create_audio_generation_model
+from controlfoley.feature_extractor import FeaturesUtils
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 log = logging.getLogger()

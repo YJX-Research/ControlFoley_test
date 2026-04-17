@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from einops import rearrange
 from einops.layers.torch import Rearrange
 from lib.rotary_embeddings import apply_rope
-from foley_edit.neural_blocks import MLP, ChannelLastConv1d, ConvMLP
+from controlfoley.neural_blocks import MLP, ChannelLastConv1d, ConvMLP
 
 
 def modulate(x: torch.Tensor, shift: torch.Tensor, scale: torch.Tensor) -> torch.Tensor:
