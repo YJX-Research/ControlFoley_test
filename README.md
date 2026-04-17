@@ -9,7 +9,7 @@
 # ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling
 
 <p align="center">
-  <a href="xxx" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/></a>
+  <a href="https://arxiv.org/pdf/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/></a>
   &nbsp;
   <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub.io-Code-blue?logo=Github&style=flat-square" alt="GitHub"/></a>
   &nbsp;
