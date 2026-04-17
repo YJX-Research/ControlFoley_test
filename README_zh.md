@@ -9,7 +9,7 @@
 # ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling
 
 <p align="center">
-  <a href="https://arxiv.org/pdf/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/></a>
+  <a href="https://arxiv.org/abs/2604.15086" style="text-decoration:none"><img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/></a>
   &nbsp;
   <a href="https://github.com/xiaomi-research/controlfoley" style="text-decoration:none"><img src="https://img.shields.io/badge/GitHub.io-Code-blue?logo=Github&style=flat-square" alt="GitHub"/></a>
   &nbsp;
@@ -66,7 +66,7 @@
 
 ## 📰 **新闻**
 
-- [2026-04] 技术报告发布于 [arXiv](https://arxiv.org/pdf/2604.15086)。
+- [2026-04] 技术报告发布于 [arXiv](https://arxiv.org/abs/2604.15086)。
 - [2026-04] [项目页面](https://yjx-research.github.io/ControlFoley_web_page/) 已上线。
 - [2026-04] [推理代码](https://github.com/xiaomi-research/controlfoley) and [预训练模型](https://huggingface.co/YJX-Xiaomi/ControlFoley) 已发布。
 - [2026-04] 在线推理已上线于[项目界面](https://yjx-research.github.io/ControlFoley_web_page/), 点击“Try Now”即刻进行体验。
@@ -306,14 +306,14 @@ python demo.py --prompt "A bird sings melodically in a forest." --duration 8.0 -
 如果您觉得本代码库对您有所帮助，欢迎引用我们的论文：
 
 ```bibtex
-@misc{xxx,
-  title={xxx},
-  author={xxx},
+@misc{yang2026controlfoleyunifiedcontrollablevideotoaudio,
+  title={ControlFoley: Unified and Controllable Video-to-Audio Generation with Cross-Modal Conflict Handling}, 
+  author={Jianxuan Yang and Xinyue Guo and Zhi Cheng and Kai Wang and Lipan Zhang and Jinjie Hu and Qiang Ji and Yihua Cao and Yihao Meng and Zhaoyue Cui and Mengmei Liu and Meng Meng and Jian Luan},
   year={2026},
-  eprint={xxx},
+  eprint={2604.15086},
   archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/xxx}
+  primaryClass={cs.MM},
+  url={https://arxiv.org/abs/2604.15086}, 
 }
 ```
 
