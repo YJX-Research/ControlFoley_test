@@ -69,7 +69,7 @@
 - [2026-04] 技术报告发布于 [arXiv](https://arxiv.org/abs/2604.15086)。
 - [2026-04] [项目页面](https://yjx-research.github.io/ControlFoley_web_page/) 已上线。
 - [2026-04] [推理代码](https://github.com/xiaomi-research/controlfoley) 和 [预训练模型](https://huggingface.co/YJX-Xiaomi/ControlFoley) 已发布。
-- [2026-04] 在线推理已上线于[项目推理接口](https://yjx-research.github.io/ControlFoley_web_page/#try-gen)。
+- [2026-04] 在线推理已上线于 [项目推理接口](https://yjx-research.github.io/ControlFoley_web_page/#try-gen)。
 - [即将推出] Skill 即将发布。
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
