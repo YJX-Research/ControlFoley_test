@@ -69,7 +69,7 @@ If you find this project useful, please consider giving a star ⭐️~
 - [2026-04] Technical report released on [arXiv](https://arxiv.org/abs/2604.15086).
 - [2026-04] [Project page](https://yjx-research.github.io/ControlFoley_web_page/) is now live.
 - [2026-04] [Inference code](https://github.com/xiaomi-research/controlfoley) and [pretrained models](https://huggingface.co/YJX-Xiaomi/ControlFoley) are released.
-- [2026-04] Online demo is available on [Project Inference Interface](https://yjx-research.github.io/ControlFoley_web_page/#try-gen).
+- [2026-04] Online demo is available on [Project Inference Interface](https://yjx-research.github.io/ControlFoley_web_page/#try-gen), let's try now!
 - [Coming Soon] Skill will be released.
 
 <hr style="border: none; border-top: 3px solid #333; margin: 16px 0;">
